@@ -3,6 +3,6 @@ local Client = Players.LocalPlayer
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
 local Modules = ReplicatedStorage.Modules
 local EmoteModule = Modules.EmoteModule
-local Emotes = Client.PlayerGui.MainGUI.Game:FindFirstChild("Thanh Hub Premium")
+local Emotes = Client.PlayerGui.MainGUI.Game:FindFirstChild("Emotes")
 local EmoteList = {"headless","zombie","zen","ninja","floss","dab","sit"}
 require(EmoteModule).GeneratePage(EmoteList,Emotes,'Your Emotes')
